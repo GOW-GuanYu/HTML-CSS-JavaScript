@@ -1,0 +1,195 @@
+*{
+
+    margin: 0px;
+    padding: 0px;
+
+}
+@font-face {
+    font-family: "idroid";
+    src: url(../imagensD10/fontes/idroid.otf);
+}
+header{
+
+    background: linear-gradient(to top,#60F0AF,#00883f );
+    color: whitesmoke;
+    text-shadow: 1px 1px 1px black;
+
+}
+h2{
+
+    padding: 0px 20px 0px 20px;
+    color: rgb(161, 161, 161);
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 16px;
+
+}
+#titulo{
+
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-family: 'Bebas Neue', cursive;
+    text-align: center;
+
+}
+nav ul{
+
+    text-decoration: none;
+    background: linear-gradient(to bottom,#4bd996,#00883f);
+    padding: 0px;
+    margin: 0px;
+
+}
+header li{
+
+    display: inline;
+
+}
+header li a{
+
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1em;
+    font-display: center;
+
+    margin: 0px;
+    padding: 20px;
+
+    color: rgb(255, 255, 255);
+    text-shadow: 0.5px 0.5px 0.5px;
+
+
+
+}
+header li a:hover{
+
+    background: linear-gradient(to top,#60F0AF,#37e789 );
+    
+    font-size: 1em;
+    display: inline-flex;
+    font-display: center;
+    color: #2B704B;
+
+    box-shadow: 1px 1px 1px black;
+    border-radius: 5px;
+    transition: .5s;
+    margin: 10px 20px 10px 20px;
+    padding: 20px;
+    
+
+}
+header h2{
+
+    margin-bottom: 25px;
+
+}
+.fontedroid{
+
+    padding: 20px 20px 10px 20px;
+    font-family: 'idroid';
+    color: #00883f;
+    text-align: justify;
+    
+
+}
+img{
+
+    max-width: 820px;
+    display: block;
+    margin: 0px auto;
+
+}
+body{
+    
+    margin: 0px;
+    background-color: #60F0AF;
+    text-align: justify;
+    font-size: 0,7em;
+
+}
+main{
+
+    background-color: #AAF2D2;
+
+    max-width: 800px;
+    min-width: 320px;
+    padding: 0px;
+    margin: auto;
+
+    box-shadow: 3px 5px 4px 0.50px rgba(0, 0, 0, 0.479);
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    
+
+}
+p{
+
+    text-indent: 10px;
+    margin: 20px 10px 10px 20px;
+    padding-bottom: 0px;
+
+}
+#video{
+
+    background-color: #2a6f4a;
+    padding: 5px 0px 0px 0px;
+    margin: 20px 0px 20px 0px;
+    text-align: center;
+
+    /* Capitulo 17 Aula 12: precisa usar o "position relative" e " position absolute" para deixar o video responsivo em celulares */
+
+}
+abbr{
+
+    text-decoration: underline;
+
+}
+aside{
+    
+    background-color: #2B704B;
+    padding: 0px 0px 5px 0px;
+    margin: 20px;
+    text-indent: 1em;
+    box-shadow: 1px 1px 1px 0.4px rgb(0, 0, 0);
+    border-radius: 5px;
+
+}
+aside ul{
+
+    columns: 2;
+    list-style-position: inside;
+    margin: 0px 0px 10px 0px;
+    padding: 0px;
+
+}
+aside li{
+
+    text-align: justify;
+
+}
+
+.marcacao{
+
+    background-color: #42b678;
+    color: rgb(10, 8, 8);
+
+}
+strong{
+
+    color: rgb(139, 243, 170);
+
+}
+footer p{
+
+    margin: 20px 0px 0px 0px;
+
+}
+footer{
+
+    background-color: #28352f;
+    text-align: center;
+    color: #ffffff;
+    margin: 0px;
+    padding: 0px;
+
+}

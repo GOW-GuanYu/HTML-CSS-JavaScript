@@ -1,0 +1,179 @@
+@font-face {
+    font-family: "idroid";
+    src: url(../imagensD10/fontes/idroid.otf);
+}
+@font-face {
+    font-family: "Bebas";
+    src: url(../imagensD10/fontes/BebasNeue\ Book.otf);
+}
+
+body{
+
+    background-color: #5AEDAD;
+    text-align: justify;
+    margin: 0px;
+    padding: 0px;
+
+}
+
+h1{
+
+    color: #42AD7F;
+    font-family: 'idroid', arial, sans-serif;
+    text-align: justify;
+    font-size: 1.5em;
+    margin: 0px;
+    padding: 20px 0px 10px 10px;
+    
+}
+h2{
+
+    color: #42AD7F;
+    font-family: 'idroid', arial, sans-serif;
+    text-align: left;
+    text-indent: 1em;
+    margin: 0px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+h3{
+
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1em;
+    text-align: center;
+
+}
+p{
+
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1em;
+    text-indent: 1em;
+    padding: 0px 20px 0px 20px;
+}
+
+nav{
+    
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgba(255, 255, 255, 0.726);
+    background: linear-gradient(to top,#144226,#47ec86 );
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    
+
+}
+nav h1{
+
+    font-size: 3em;
+    font-family: 'Bebas';
+    color: rgb(255, 255, 255);
+    text-align: center;
+    margin: 0px;
+    padding: 10px 0px 20px 0px;
+
+}
+nav h2{
+
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1em;
+    text-align: center;
+    padding: 10px 0px 20px 0px;
+
+}
+nav a{
+
+    text-decoration: none;
+    color: white;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 2px;
+    padding-left: 10px;
+    
+
+}
+
+main{
+
+    background-color: white;
+    max-width: 800px;
+    min-width: 320px;
+    margin: auto;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.410);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+img{
+
+    max-width: 800px;
+    display: block;
+    margin: 0px auto;
+    
+}
+
+div#video{
+
+    background-color: #144226;
+    margin: 0px auto 0px auto;
+    padding: 20px 0px 20px 0px;
+
+
+}
+iframe{
+    
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0px;
+
+}
+
+.marcacao{
+
+    background-color: #42b678;
+    color: rgb(10, 8, 8);
+
+}
+
+abbr{
+
+    text-decoration: underline;
+
+}
+
+aside{
+    
+    background-color: #2B704B;
+    padding: 0px 0px 5px 0px;
+    margin: 20px;
+    text-indent: 1em;
+    box-shadow: 1px 1px 1px 0.4px rgb(0, 0, 0);
+    border-radius: 5px;
+
+}
+aside ul{
+
+    columns: 2;
+    list-style-position: inside;
+    margin: 0px 0px 10px 0px;
+    padding: 0px;
+
+}
+aside li{
+
+    text-align: justify;
+
+}
+
+footer{
+
+    padding: 5px;
+    margin: 20px 0px 0px 0px;
+    background-color: #144226;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+    text-align: center;
+
+}
