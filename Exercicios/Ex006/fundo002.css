@@ -1,0 +1,14 @@
+body{
+
+    background-image: url('https://gustavoguanabara.github.io/html-css/imagens/mascote.png');
+    background-size: 200px 200px;
+    background-repeat:no-repeat;
+
+    /*  
+        repeat y = repete a imagem na horizontal
+        repeat x = repete a imagem na vertical
+        repeat = repete a imagem
+        background-size = o primeiro parametro determina a largura(width) e o segundo a altura (height)
+    */
+
+}
