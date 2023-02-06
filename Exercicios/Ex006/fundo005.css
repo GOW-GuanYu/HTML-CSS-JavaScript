@@ -6,13 +6,16 @@ body{
     background-position: center top;
     background-repeat: no-repeat;
     background-size: cover;
-    
+    /*
+        A imagem se adapta de fundo se adapta com o tamanho da janela.
+        A imagem se repete se a rolagem ficar muito grande.
+    */
 
 }
 main{
 
     width: 400px;
-    padding: 0px;
+    padding: 10px;
     margin: auto;
     border-radius: 10px;
     background-color: white;
