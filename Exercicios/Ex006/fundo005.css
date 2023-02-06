@@ -3,12 +3,27 @@ body{
     height: 100vh;
     background-color: rgb(10, 10, 10);
     background-image: url('imagens/wallpaper002.jpg');
-    background-position: center top;
+    background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
     /*
-        A imagem se adapta de fundo se adapta com o tamanho da janela.
-        A imagem se repete se a rolagem ficar muito grande.
+        A imagem de fundo se adapta com o tamanho da janela.
+        Se não colocar o "Background-attachment: fixed;" a imagem não vai se repetir e vai aparecer o background-color de fundo, pois a imagem está configurada para "no-repeat".
+    */
+
+    /*ShortHand - Background 
+    
+        color > image > position > repeat > [size] > attachment (O background-size não funciona)
+
+            Exemplo: 
+                     
+                     background: black url('imagens/wallpaper002.jpg') center center no-repeat  fixed;
+                     
+                     background: black url('imagens/wallpaper002.jpg') center center no-repeat  fixed;
+                     background-size: cover;
+    
+    Parando para lembrar que os ShortHands ajudam muito na organização e diminuem consideravelmente as linhas de codigo
     */
 
 }
