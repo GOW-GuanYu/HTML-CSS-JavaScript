@@ -1,0 +1,92 @@
+body{
+    
+    margin: 0px;
+    background-color: purple;
+
+}
+@font-face {
+
+    font-family: "Passion One";
+    src: url(https://fonts.google.com/specimen/Passion+One);
+
+}
+
+header{
+
+    background-color: black;
+    color: white;
+    text-align: center;
+
+}
+header h1{
+
+    font-variant: small-caps;
+    font-family: 'Passion One';
+    font-size: 10vw;
+    padding: 50px 0px 50px 0px;
+    font-weight: bold;
+
+}
+header span{
+
+    text-decoration: solid;
+    font-size: 2em;
+
+}
+header span:hover{
+
+    text-decoration: underline;
+
+}
+div.normal{
+
+    font-size: 1em ;
+    margin: 0px;
+    line-height: 2em;
+
+}
+.normal p{
+
+    margin: 0px;
+    min-height: 100vh;
+    background-color: white;
+
+}
+
+
+.imagem1{
+    
+    background-color: black;
+    background-image: url('imagens/background001.jpg');
+    background-size: 100% 100%;
+    margin: 0px;
+    min-height: 100vh;
+}
+.imagem1 p{
+
+    text-align: justify;
+    font-size: 2em;
+    line-height: 2em;
+    color: black;
+
+
+    background-color: rgba(0, 0, 0, 0.397);
+
+    position: absolute;
+
+}
+h1 {
+    
+    margin: 0px;
+    display: block;
+    font-size: 2em;
+    font-weight: bold;
+}
+a{
+
+    text-decoration: none;
+    font-family: var(--fonte1);
+    color: white;
+    padding: 0px 0px 50px 0px;
+
+}
