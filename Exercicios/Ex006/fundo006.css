@@ -1,0 +1,33 @@
+#container{
+
+    background-image: url('imagens/target001.png');
+    background-size: 100% 100%;
+    height: 94vh;
+    padding: 10px;
+    background-color: purple;
+    position: relative;
+
+    /* O Container precisa ter a Position: relative; e o conteudo Position: absolute; para assim alinhar os elementos verticalmente */
+
+}
+
+#conteudo{
+
+    background-image: url('imagens/target001.png');
+    background-size: 100% 100%;   /* faz a imagem de fundo se adaptar ao tamanho da box */
+    height: 200px;
+    width: 400px;
+    background-color: yellow;
+    
+    /* faz ele ficar a direita em baixo */
+    position: absolute;
+    left: 50%;
+    top: 50%;
+                
+    /* -50% pra esquerda e -50% pra cima, isso faz o conteúdo ficar centralizado ao centro do container */ 
+    transform: translate(-50%, -50%);
+
+
+    /*Resumindo: nesse exercicio vemos que usamos posicionamentos positivos e negativos para centralizar o container, ams apra isso funcionar o Container precisa ter a Position: relative; e o conteudo Position: absolute; */
+
+}
