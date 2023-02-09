@@ -1,16 +1,32 @@
 body{
     
     margin: 0px;
-    background-color: purple;
+    padding: 0px;
+    background-color: black;
 
 }
+*{
+
+    font-size: 1em;
+    margin: 0px;
+
+}
+
 @font-face {
 
     font-family: "Passion One";
-    src: url(https://fonts.google.com/specimen/Passion+One);
+    src: url('fonte/PassionOne-Regular.ttf');
 
 }
+@font-face {
+    font-family: "Sriracha";
+    src: url('fonte/Sriracha-Regular.ttf');
+}
+main{
 
+    margin: 0px;
+
+}
 header{
 
     background-color: black;
@@ -21,59 +37,118 @@ header{
 header h1{
 
     font-variant: small-caps;
-    font-family: 'Passion One';
+    font-family: 'Passion One', cursive;
     font-size: 10vw;
     padding: 50px 0px 50px 0px;
     font-weight: bold;
 
 }
-header span{
+header p{
+    
+    font-size: 3.5vw;
 
-    text-decoration: solid;
-    font-size: 2em;
+    margin: 0px;
+    padding-bottom: 20px;
 
 }
-header span:hover{
+header a:hover{
 
     text-decoration: underline;
+    color: rgb(17, 120, 155);
+    margin: 0px;
 
 }
 div.normal{
 
-    font-size: 1em ;
-    margin: 0px;
+    font-size: 3.5vw ;
+    font-family: 'Sriracha';
     line-height: 2em;
+
+    margin: 0px;
+    padding: 0vh 0px 0vh 7vh;
+
+
+    background-color: white;
 
 }
 .normal p{
 
+    padding: 20px 0px 20px 0px;
     margin: 0px;
-    min-height: 100vh;
-    background-color: white;
+
 
 }
 
 
 .imagem1{
     
+    display: block;
     background-color: black;
     background-image: url('imagens/background001.jpg');
     background-size: 100% 100%;
+    box-shadow: inset 6px 6px 13px 0px rgb(0 0 0 / 47%);
+
     margin: 0px;
-    min-height: 100vh;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    padding-left: 30px;
+    padding-right: 30px;
+
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: right top;
+    position: relative
+
 }
 .imagem1 p{
 
-    text-align: justify;
-    font-size: 2em;
+    font-family: 'Sriracha';
+    font-size: 3.5vw;
+    text-align: left;
     line-height: 2em;
-    color: black;
+    color: rgb(255, 255, 255);
 
-
+    background-size: cover;
+    background-attachment: fixed;
     background-color: rgba(0, 0, 0, 0.397);
+    position: relative;
+    
+    margin: 0px;
+}
+.imagem2{
+    
+    display: block;
+    background-color: black;
+    background-image: url('imagens/background002.jpg');
+    background-size: 100% 100%;
+    box-shadow: inset 6px 6px 13px 0px rgb(0 0 0 / 47%);
 
-    position: absolute;
+    margin: 0px;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    padding-left: 30px;
+    padding-right: 30px;
 
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: right center;
+    position: relative
+
+}
+.imagem2 p{
+
+    font-family: 'Sriracha';
+    font-size: 3.5vw;
+    text-align: left;
+    line-height: 2em;
+    color: rgb(255, 255, 255);
+
+    background-size: cover;
+    background-attachment: fixed;
+    background-color: rgba(0, 0, 0, 0.397);
+    position: relative;
+    
+    margin: 0px;
 }
 h1 {
     
@@ -85,8 +160,34 @@ h1 {
 a{
 
     text-decoration: none;
-    font-family: var(--fonte1);
     color: white;
     padding: 0px 0px 50px 0px;
+
+}
+
+footer{
+
+    background-color: black;
+
+    color: white;
+    text-align: center;
+
+    margin: 0px;
+    padding: 10px;
+
+}
+footer a {
+    margin: 0px;
+    padding: 0px;
+}
+footer p{
+    font-size: 1.3vw;
+    margin: 0px;
+    padding: 0px;
+}
+footer a:hover{
+
+    text-decoration: underline;
+    color: rgb(17, 120, 155);
 
 }
