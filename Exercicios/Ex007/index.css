@@ -1,0 +1,24 @@
+table{
+
+    width: 400px;
+    border-collapse: collapse;
+
+}
+
+tr.linha{
+
+    background-color: yellow;
+
+}
+
+td{
+
+    padding: 8px;
+    border: 1px solid black;
+
+}
+td.dado{
+
+    background-color: blue;
+    
+}
