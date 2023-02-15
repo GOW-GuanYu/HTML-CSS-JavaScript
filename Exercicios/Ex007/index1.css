@@ -10,10 +10,33 @@ thead,tfoot{
     color: white;
 
 }
+caption{
+
+    font-size: 1.5em;
+    font-weight: bold;
+    padding: 10px;
+    background-color: rgb(66, 66, 66);
+
+}
+thead > tr > th{ /* th dentro do tr dentro do thead*/
+
+    /*Isso Vai fazer com que o "cabeçalho da tabela apareça na rolagem */
+    position: sticky;
+    top: -1px;
+
+    /*Como só ficam aparecendo as palavras eu resolvi colocar um background: grey; para ficar mais visível*/
+    background-color: grey;
+
+}
 td,th{
 
     border: 1px solid black;
     padding: 8px;
+
+}
+tbody > tr:nth-child(2n){
+
+    background-color: lightgray;
 
 }
 td.num{
