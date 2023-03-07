@@ -9,19 +9,16 @@ html, body{
     background-color: black;
     width: 100vw;
     height: 100vh;
-
-}
-main{
-
-    height: 100vh;
-
+    
+    background-size: cover;/** Vai fazer com q o background cubra toda a tela e o torne responsivo, sem ele o background (black) fica aparecendo**/
     background-image: url('imagens/fundo-madeira.jpg');
-    background-size: 100vw;
     background-repeat: no-repeat;
-    background-position: bottom left;
+    background-position: top right;
+
     position: relative;
 
 }
+
 section#telefone{
 
     height: 627px;
@@ -38,11 +35,33 @@ section#telefone{
 }
 iframe#tela{
 
-    height: 467px;
-    width: 265px;
+    height: 471px;
+    width: 264px;
 
     top: 80px;
     left: 22px;
     position: relative;
+
+}
+section#redes-sociais{
+
+text-align: right;
+
+}
+section#redes-sociais img {
+
+    width: 50px;
+    margin: 10px;
+    border-radius: 25px;
+    box-sizing: border-box;
+    box-shadow: 2px 2px 5px solid rgba(0, 0, 0, 0.600);
+
+}
+section#redes-sociais img:hover{
+
+    border: 2px rgba(255, 255, 255, 0.616) solid;
+    transform: translate(-3px, -3px);
+    box-shadow: 5px 5px 10px solid rgba(0, 0, 0, 0.600);
+    transition: 0.30s;
 
 }
