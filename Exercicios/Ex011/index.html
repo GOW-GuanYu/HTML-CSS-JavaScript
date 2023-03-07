@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu primeiro Formulário</title>
+    <style></style>
+</head>
+<body>
+    <h1>Formulário</h1>
+    <form action="cadastro.php" method="post"> <!--- action="cadastro.php" Faz com que seja carregado um script ".php" para obter o dado Digitado nos Inputs de tipo "Text" quando clicado em de "Enviar"  --->
+
+        <!--- Usar o Method="get" quando os dados do Usuario não forem sensiveis (senhas, CPF, Cartão de Crédito e etc), só se é possivel enviar 3k de bytes (3mil letras) também não é possivel enviar fotos ou documentos --->
+
+        <!--- Usar o Method="Post" quandos os dados ultrapassarem 3k de bytes. Quando quiser enviar fotos, arquivos e etc --->
+
+        <p><label for="nome">Nome</label>  <!--- Label for="nome" Relaciona o "nome" com o Input de tipo Texto com o name="nome"  --->
+            <input type="text" name="nome" autocomplete="off"> 
+        </p>
+
+        <p><label for="sobrenome">Sobrenome </label> <!--- Label for="nome" Relaciona o "Sobrenome" com o Input de tipo Texto com o name="nome"  --->
+            <input type="text" name="sobrenome"> 
+        </p>
+        
+        <p> 
+            <input type="submit" value="Enviar"> 
+        </p>
+    </form>
+</body>
+</html>

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Teste de formulário</h1>
+
+    <form action="cadastro.php" method="post">
+
+        <p>
+            <label for="iusu">
+                Usuario:
+                <input type="text" name="usu" id="iusu" autocomplete="on" required    minlength="5" maxlength="20" size="15" placeholder="Nome do Usuário"> <!--- 
+                    
+                    Required: Vai fazer com que o campo seja requerido para completar o cadastro. 
+                    
+                    Autocomplete: Faz com que guarde o nome de Usuário.
+                    
+                    Placeholder: Faz com que uma palavra explicativa apareça na caixa de texto. --->
+            </label>
+        </p>
+
+        <p>
+            <label for="isenha">
+                Senha:
+                <input type="password" name="isenha" id="isenha" required minlength="8" placeholder="Mínimo de 8 letras" autocomplete="current-password"> <!-- Autocomplete="current-password" Faz com que o navegador vá até o gerenciamento de senha e utilize a senha jpa salva para o site -->
+            </label>
+        </p>
+        
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Limpar">
+
+
+    </form>
+</body>
+</html>
