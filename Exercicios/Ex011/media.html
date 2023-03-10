@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Média</title>
+</head>
+<body>
+    <form action="cadastro.php" method="post">
+
+        <p>
+            <label for="nome">Nome do aluno:</label>
+            <input required type="text" name="nome" id="nome" maxlength="30" size="30" placeholder="Insira o nome do Aluno">
+        </p>
+        <p>
+            <label for="numero">Média do Aluno:</label>
+            <input type="number" name="media" id="media" max="10" required placeholder="Média de 0 a 10" size="10" place step="0.1"> <!-- Step: faz com que o número possa ser quebrado(4.5/7.8) -->
+        </p>
+        <p>
+            <label for="mes">Periodo Letivo:</label>
+            <input type="month" name="mes" id="mes">
+        </p>
+        <p>
+            <label for="dia">Dia de aplicação:</label>
+            <input type="date" name="dia" id="dia">
+        </p>
+        <p>
+            <input type="submit" value="Enviar" >
+            <input type="reset" value="Limpar">
+        </p>
+
+    </form>
+</body>
+</html>
