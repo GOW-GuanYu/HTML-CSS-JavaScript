@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo de Formulário</title>
+    <style>
+
+        form{
+
+        background-color: rgb(255, 255, 255);
+        color: black;
+        border: 2px solid black;
+        box-shadow: 2px 2px 3px 0.5px rgba(0, 0, 0, 0.507);
+
+        }
+
+    </style>
+</head>
+<body>
+    
+    <h1>Exemplo de Formulário</h1>
+
+    <form action="form.php">
+
+        <fieldset>
+            
+            <legend>Insira seus Dados</legend>
+            
+            <p>
+                <label for="nome">Nome:</label>
+                <input name="nome" id="nome" type="text" required placeholder="Digite seu nome">
+            </p>
+            
+            <p>
+                <label for="email">E-mail:</label>
+                <input name="email" id="email" type="text" required autocomplete="on" placeholder="Digite Seu Melhor email" size="30">
+            </p>
+           
+            <p>
+                <label for="telefone">Telefone:</label>
+                <input name="telefone" id="telefone" type="tel" required pattern="^\(\d{2}\)\d{4,5}\d{4}$" placeholder="(xx)xxxx-xxxx" autocomplete="off">
+            </p>
+
+            <p>
+                <input type="submit" value="Enviar">
+            </p>
+
+        </fieldset>
+
+    </form>
+
+</body>
+</html>
