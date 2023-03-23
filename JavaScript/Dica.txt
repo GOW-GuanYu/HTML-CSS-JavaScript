@@ -1,0 +1,1 @@
+Ctrl + alt + n  = executar o plugin com o code runner
