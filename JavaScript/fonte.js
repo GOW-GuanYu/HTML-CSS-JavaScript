@@ -21,9 +21,11 @@ let categoria = "Papelaria";
 // Mostrando Resultados
 console.log(total0);
 console.log(total1);
+
 console.log(total2);
 console.log(total3);
 
+//...
 
 console.log(nome + categoria);
 
