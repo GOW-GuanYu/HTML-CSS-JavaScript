@@ -9,3 +9,153 @@
 
 #F2CD5C Provável cor da logo (pode vir a ser mudada)
 */
+
+
+@font-face {
+    font-family: "Logo";
+    src: url("fonte/MD\ Grotesk\ Regular.ttf");
+}
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.letras{
+
+    padding: 0px 0px 40px 0px;
+
+}
+header h1{
+    
+    margin-top: 40px;
+    margin-bottom: 40px;
+
+    color: black;
+
+    font-size: 4em;
+    font-family: 'Logo';
+    text-align: center;
+
+}
+header div#cabecalho{
+
+    background-color: #cabfaba2;
+    margin: 0px;
+    font-size: 0.5em;
+
+}
+#cadastro{
+
+    float: right;
+
+}
+header a{
+
+
+    border-color: black;
+    margin: 20px;
+    
+
+    display: inline-block;
+
+    text-align: left;
+    color: black;
+    text-decoration: none;
+
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-style: bold;
+    font-size: 20px;
+
+}
+
+main{
+
+    min-width: 320px;
+
+}
+
+div.texto{
+
+    margin: 80px;
+    text-align: center;
+
+}
+div.texto a{
+
+    border-radius: 2px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: black;
+    padding: 20px;
+    display: inline-block;
+    margin: 20px;
+
+    text-decoration: none;
+    color: black;
+
+}
+div.texto a:hover{
+
+    background-color: rgba(0, 0, 0, 0.116);
+    border-radius: 2px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: black;
+    display: inline-block;
+    
+    margin: 10px;
+    padding: 25px;
+    transition: .5s;
+
+}
+
+
+div.terno{
+
+    background-image: url('fotos/02f53bda666ee9dcdc3696c79838cb95.jpg');
+
+    background-size: 100% 100%;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: right center;
+    display: block;
+    margin: auto;
+
+}
+div.colete{
+
+    background-image: url('fotos/ColeteAzul.jfif');
+    size: 100vh;
+
+    background-size: 100% 100%;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: right center;
+    display: block;
+    margin: auto;
+
+}
+
+
+body{
+
+    background-color: #DFD8C8;
+
+}
+
+
+footer{
+    
+    text-align: center;
+    background-color: #CABFAB;
+
+}
+
+footer a{
+
+    font-style: bold;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+
+}
