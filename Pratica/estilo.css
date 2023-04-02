@@ -23,14 +23,22 @@
 
 header h1{
     
-    margin-top: 40px;
-    margin-bottom: 40px;
+    margin: 0px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: rgba(0, 0, 0, 0.041);
 
     color: black;
 
     font-size: 4em;
     font-family: 'Logo';
     text-align: center;
+
+}
+header div#cabecalho{
+
+    background-color: #cabfaba2;
+    margin: 0px;
 
 }
 header a{
@@ -48,39 +56,19 @@ header a{
 
     font-family:Georgia, 'Times New Roman', Times, serif;
     font-style: bold;
-    font-size: 16px;
+    font-size: 14px;
     
+    position: relative;
 
 }
-#menu{
-	
-	list-style: none;
-	padding: 0px;
-	background-color:	rgb(37, 37, 39);
-	font-family: 'open Sans', sans-serif;
-    font-size: 10px;
-	
-}
-#menu ul li{
-	
-	display: inline;
-	
-}
-#menu ul li a{
-	
-	text-decoration: none;
-	color: white;
-	padding: 20px;
-	display: inline-block;
-	transition: background .4s;
-	
+header a:last-child{
+
+    float: right;
+    margin: 20px 10px 0px 0px;
+
+
 }
 
-#menu ul li:last-child a{
-	
-	float: right;
-	
-}
 
 div.texto{
 
@@ -118,20 +106,20 @@ div.texto a:hover{
 }
 
 
-div.terno{
+p.terno{
 
     background-image: url('fotos/02f53bda666ee9dcdc3696c79838cb95.jpg');
 
     background-size: 100% 100%;
     background-size: cover;
     background-attachment: fixed;
-    background-position: right center;
+    background-position: center center;
     display: block;
     margin: auto;
 
 
 }
-div.colete{
+p.colete{
 
     background-image: url('fotos/ColeteAzul.jfif');
     size: 100vh;
@@ -139,7 +127,7 @@ div.colete{
     background-size: 100% 100%;
     background-size: cover;
     background-attachment: fixed;
-    background-position: right center;
+    background-position: center center;
     display: block;
     margin: auto;
 
