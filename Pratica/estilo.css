@@ -65,13 +65,15 @@ header a{
 
     font-family:Georgia, 'Times New Roman', Times, serif;
     font-style: bold;
-    font-size: 20px;
+    font-size: 16px;
 
 }
 
 main{
 
-    min-width: 320px;
+    min-width: 400px;
+    max-width: 1200px;
+    
 
 }
 
