@@ -33,12 +33,6 @@ header h1{
     text-align: center;
 
 }
-header div#cabecalho{
-
-    background-color: #cabfaba2;
-    margin: 0px;
-
-}
 header a{
 
 
@@ -58,13 +52,35 @@ header a{
     
 
 }
-header a:last-child{
-
-    float: right;
-    margin: 20px 0px 0px 0px;
-
+#menu{
+	
+	list-style: none;
+	padding: 0px;
+	background-color:	rgb(37, 37, 39);
+	font-family: 'open Sans', sans-serif;
+    font-size: 10px;
+	
+}
+#menu ul li{
+	
+	display: inline;
+	
+}
+#menu ul li a{
+	
+	text-decoration: none;
+	color: white;
+	padding: 20px;
+	display: inline-block;
+	transition: background .4s;
+	
 }
 
+#menu ul li:last-child a{
+	
+	float: right;
+	
+}
 
 div.texto{
 
