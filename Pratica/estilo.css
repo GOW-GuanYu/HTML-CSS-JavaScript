@@ -42,12 +42,12 @@ header div#cabecalho{
 
     background-color: #cabfaba2;
     margin: 0px;
-    font-size: 0.5em;
 
 }
 #cadastro{
 
     float: right;
+    text-align: right;
 
 }
 header a{
