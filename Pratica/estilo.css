@@ -53,6 +53,7 @@ header h1{
     padding-right: 5px;
     float: right;
     text-align: center;
+    min-width: 406px;
 
 }
 header a{
