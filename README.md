@@ -1,2 +1,2 @@
-# HTML-CSS
- Curso de HTML5 e CSS3
+# Para estudos e práticas
+    Ainda estou aperfeiçoando os meus códigos 
