@@ -38,16 +38,21 @@ header h1{
     text-align: center;
 
 }
-header div#cabecalho{
+#cabecalho{
 
     background-color: #cabfaba2;
     margin: 0px;
+    text-indent: -2px;
 
 }
 #cadastro{
-
+    
+    margin: 0px;
+    margin-right: 15px;
+    padding-top: 20px;
+    padding-right: 5px;
     float: right;
-    text-align: right;
+    text-align: center;
 
 }
 header a{
@@ -70,12 +75,6 @@ header a{
 
 }
 
-main{
-
-    min-width: 400px;
-    max-width: 1200px;
-    
-}
 
 div.texto{
 
@@ -124,10 +123,6 @@ div.terno{
     display: block;
     margin: auto;
 
-    max-height: 1100px;
-    min-height: 600px;
-    max-width: 800px;
-    min-width: 300px;
 
 }
 div.colete{
