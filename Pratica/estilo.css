@@ -37,7 +37,7 @@ hr{
 
 div#cabecalho{
 
-    background-color: #cabfaba2;
+    background-color: black;
     margin: 0px;
 
 }
@@ -59,13 +59,13 @@ header a{
 
 
     border-color: black;
-    margin: 20px;
+    margin: 10px;
     
 
     display: inline-block;
 
     text-align: left;
-    color: black;
+    color: white;
     text-decoration: none;
 
     font-family:Georgia, 'Times New Roman', Times, serif;
@@ -78,7 +78,7 @@ header a{
 header a:last-child{
 
     float: right;
-    margin: 20px 10px 0px 0px;
+    margin: 10px 10px 0px 0px;
 
 
 }
@@ -89,7 +89,6 @@ p.terno{
 
     background-image: url('fotos/02f53bda666ee9dcdc3696c79838cb95.jpg');
     height: 100vh;
-    width: 100vw;
 
     background-size: 100% 100%;
     background-size: cover;
@@ -103,7 +102,7 @@ p.terno{
 div.colete{
 
     background-image: url('fotos/ColeteAzul.jfif');
-    height: 100vh;
+    height: 80vh;
 
     background-size: 100% 100%;
     background-size: cover;
@@ -127,7 +126,7 @@ div.colete img{
     left: 60%;
     top: 50%;
 
-    transform: translate(-60%, -60%);
+    transform: translate(-60%, -50%);
 
 }
 /*        Section de Mensagem Comum           */
@@ -253,13 +252,15 @@ footer{
     text-align: center;
     background-color: black;
     color: white;
+    margin: 0px;
 
 }
 
 footer a{
 
     font-style: bold;
-    text-decoration: none;
-    color: rgb(0, 0, 0);
+    text-decoration: underline;
+    color: white;
+    margin: 0px;
 
 }
