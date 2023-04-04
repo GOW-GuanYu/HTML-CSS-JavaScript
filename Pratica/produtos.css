@@ -1,0 +1,261 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+
+    background-color: rgb(243, 243, 243);
+
+}
+
+/*    Configurando o cabeçalho    */
+
+div#cabecalho{
+
+    background-color: black;
+    margin: 0px;
+
+}
+header h1{
+    
+    margin: 0px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: rgba(0, 0, 0, 0.041);
+
+    color: black;
+
+    font-size: 4em;
+    font-family: 'Logo';
+    text-align: center;
+
+}
+header a{
+
+
+    border-color: black;
+    margin: 10px;
+    
+
+    display: inline-block;
+
+    text-align: left;
+    color: white;
+    text-decoration: none;
+
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-style: bold;
+    font-size: 14px;
+    
+    position: relative;
+
+}
+header a:last-child{
+
+    float: right;
+    margin: 10px 10px 0px 0px;
+
+
+}
+
+/* Configuração de section simples */
+
+section a{
+
+    text-decoration: none;
+    color: black;
+
+}
+section#secao{
+
+    background-color: black;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+    color: white;
+
+    
+    font-size: 1.3em;
+    font-weight: lighter;
+    font-style: italic;
+    text-align: center;
+
+}
+section#secaoL{
+
+    background-color: white;
+    padding-top: 25px;
+    padding-bottom: 25px;
+
+    color: black;
+
+    
+    font-size: 0.8em;
+    font-weight: lighter;
+    font-style: italic;
+    text-align: center;
+
+}
+
+/* Criando os Produtos */
+div#Produto{
+
+    text-align: center;
+
+}
+div p.Produto1{
+
+    margin: 5px;
+    padding: 20px;
+    background-color: grey;
+
+    height: 250px;
+    width: 220px;
+
+    border-radius: 5px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: black;
+
+    display: inline-block;
+
+    background-image: url("fotos/ColeteAzul.jfif");
+
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    background-position: center center;
+    
+}
+div p.Produto2{
+
+    margin: 5px;
+    padding: 20px;
+    background-color: grey;
+
+    height: 250px;
+    width: 220px;
+
+    border-radius: 5px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: black;
+
+    display: inline-block;
+
+    background-image: url("fotos/02f53bda666ee9dcdc3696c79838cb95.jpg");
+
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    background-position: right center;
+
+}
+div p.Produto3{
+
+    margin: 5px;
+    padding: 20px;
+    background-color: grey;
+
+    height: 250px;
+    width: 220px;
+
+    border-radius: 5px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: black;
+
+    display: inline-block;
+
+    background-image: url("fotos/logo.png");
+
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    background-position: center center;
+
+}
+div p.Produto4{
+
+    margin: 5px;
+    padding: 20px;
+    background-color: grey;
+
+    height: 250px;
+    width: 220px;
+
+    border-radius: 5px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: black;
+
+    display: inline-block;
+
+    background-image: url("fotos/R.png");
+
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    background-position: center center;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Configurando o footer e informaçoes adicionais */
+
+ul#info{
+    
+    background-color: #CABFAB;
+    columns: 2;
+    padding: 20px 20px 0px 20px;
+
+}
+ul#info a{
+
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.733);
+
+}
+ul#info h3{
+
+    margin-bottom: 20px;
+
+    font-size: 0.8em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+
+}
+
+footer{
+    
+    text-align: center;
+    background-color: black;
+    color: white;
+    margin: 0px;
+
+}
+
+footer a{
+
+    font-style: bold;
+    text-decoration: underline;
+    color: white;
+    margin: 0px;
+
+}
