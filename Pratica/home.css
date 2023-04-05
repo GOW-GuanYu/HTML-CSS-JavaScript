@@ -30,7 +30,7 @@ body{
 
 /* Configurando o Header e a Logo */
 
-div#cabecalho{
+nav#cabecalho{
 
     background-color: black;
     margin: 0px;
