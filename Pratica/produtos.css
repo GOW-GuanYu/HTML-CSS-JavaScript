@@ -115,10 +115,11 @@ section#Produtos a{
     border-width: 1px;
     border-style: solid;
     border-color: black;
+
     
     padding: 10px 2px 10px 2px;
 
-    font-style: bolder;
+    font-style: bold;
 
     text-decoration: none;
     color: black;
@@ -155,32 +156,12 @@ section.Produto{
   
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* Configurando o footer e informaçoes adicionais */
-
 ul#info{
     
     background-color: #CABFAB;
     columns: 2;
-    padding: 20px 20px 0px 20px;
+    padding: 20px 20px 20px 20px;
 
 }
 ul#info a{
