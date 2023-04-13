@@ -1,0 +1,66 @@
+@font-face {
+    font-family: "Logo";
+    src: url("fonte/MD\ Grotesk\ Regular.ttf");
+}
+
+/* Configuração Geral */
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+
+    background-color: rgb(243, 243, 243);
+
+}
+
+/* Configurando o Header e a Logo */
+
+nav#cabecalho{
+
+    background-color: black;
+    margin: 0px;
+
+}
+header h1{
+    
+    margin: 0px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: rgba(0, 0, 0, 0.041);
+
+    color: black;
+
+    font-size: 4em;
+    font-family: 'Logo';
+    text-align: center;
+
+}
+header a{
+
+
+    border-color: black;
+    margin: 10px;
+    
+
+    display: inline-block;
+
+    text-align: left;
+    color: white;
+    text-decoration: none;
+
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-style: bold;
+    font-size: 14px;
+    
+    position: relative;
+
+}
+header a:last-child{
+
+    float: right;
+    margin: 10px 10px 0px 0px;
+
+
+}
