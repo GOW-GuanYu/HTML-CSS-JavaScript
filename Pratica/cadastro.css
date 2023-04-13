@@ -70,25 +70,25 @@ header a:last-child{
 
 form.cadastro{
 
-    margin: 40px;
-    text-align: left;
+    padding: 20px;
+    text-align: center;
 
 }
 #nome{
 
-    margin: 18px;
+    margin: 10px;
     padding: 5px;
     
 }
 #email{
 
-    margin: 16px;
+    margin: 10px;
     padding: 5px;
     
 }
 #telefone{
 
-    margin: 5px;
+    margin: 10px;
     padding: 5px;
     
 }
@@ -99,7 +99,22 @@ form.cadastro{
 
 }
 
+#divisao{
 
+    background-image: url("fotos/R.png");
+
+}
+div#divisao h1{
+
+    font-family: 'Logo';
+    font-size: 2em;
+    font-weight: bolder;
+    
+    text-align: center;
+
+    padding: 20px;
+
+}
 
 
 /*     Configurando informações adicionais e o Footer      */
