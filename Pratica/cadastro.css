@@ -64,3 +64,82 @@ header a:last-child{
 
 
 }
+
+/*     Configurando a Aba de Cadastro (Experimental)       */
+
+
+form.cadastro{
+
+    margin: 40px;
+    text-align: left;
+
+}
+#nome{
+
+    margin: 18px;
+    padding: 5px;
+    
+}
+#email{
+
+    margin: 16px;
+    padding: 5px;
+    
+}
+#telefone{
+
+    margin: 5px;
+    padding: 5px;
+    
+}
+#enviar{
+
+    margin: 20px;
+    padding: 10px;
+
+}
+
+
+
+
+/*     Configurando informações adicionais e o Footer      */
+ul#info{
+    
+    background-color: #CABFAB;
+    columns: 2;
+    padding: 20px 20px 20px 20px;
+
+}
+ul#info a{
+
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.733);
+
+}
+ul#info h3{
+
+    margin-bottom: 20px;
+
+    font-size: 0.8em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+
+}
+
+footer{
+    
+    text-align: center;
+    background-color: black;
+    color: white;
+    margin: 0px;
+    bottom: 0;
+
+}
+footer a{
+
+    font-style: bold;
+    text-decoration: underline;
+    color: white;
+    margin: 0px;
+
+}
