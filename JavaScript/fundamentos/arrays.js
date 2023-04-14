@@ -8,9 +8,9 @@ console.log(valores)
 
 valores [15] = 20
 console.log(valores)
-console.log(valores.length) // imprime o ]tamanho do array
+console.log(valores.length) // imprime o tamanho do array
 
-valores.push({id: 3}, false, null, 'teste') // misturar coisas dentro um array não é uma boa coisapratica, é importante ter valores homogêneos
+valores.push({id: 3}, false, null, 'teste') // misturar coisas dentro um array não é uma boa prática, é importante ter valores homogêneos
 console.log(valores)
 
 console.log(valores.pop())// pega o último valor do array e retorna ele
