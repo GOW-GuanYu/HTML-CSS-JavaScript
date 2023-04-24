@@ -3,6 +3,7 @@ console.log('a =', a)
 var a = 2
 console.log('a =', a)
 
+// mesmo exemplo de cima em uma function, apresenta o mesmo resultado
 function teste(){
     console.log('b =', b)
     var b = 2
