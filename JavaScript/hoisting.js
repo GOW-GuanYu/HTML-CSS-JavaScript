@@ -10,3 +10,10 @@ function teste(){
     console.log('b =', b)
 }
 teste()
+
+function teste2(){
+    // console.log('c =', c) vai dar erro pois não foi declarado antes de chamar
+    let c = 3
+    console.log('c =', c)
+}
+teste2()
