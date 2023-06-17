@@ -4,11 +4,12 @@ function compras(trabalho1, trabalho2){
 
     // const comprarTv32 = trabalho1 !!(trabalho1 ^ trabalho2) // bitwise xor (tipo bit a bit)
     const comprarTv32 = trabalho1 != trabalho2 // "ou EXCLUSIVO" usando o metodo matemático do: mais + mais = mais, mais + menos = menos e etc
-    const manterSaudavel = !comprarSorvete //operador unário, neste caso aqui só funciona se o parâmetro definido for diferente de verdadeiro
+    const manterSaudavel = !comprarSorvete //operador unário, neste caso aqui só funciona se o parâmetro definido for diferente de verdadeiro - existe um tópico sobre nesta pasta
 
     return{comprarSorvete, comprarTv50, comprarTv32, manterSaudavel} //criando um objeto com os parâmetros
 }
 
+//adicionando valores na função
 console.log(compras(true, true))
 console.log(compras(true, false))
 console.log(compras(false, true))

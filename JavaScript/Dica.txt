@@ -1,1 +1,4 @@
 Ctrl + alt + n  = executar o plugin com o code runner
+
+Dica importante:
+O Refatoramento é algo importante na programação, faça o seu código ser o mais simples e intendivel possivel, preze pelo seu código, não precisa algo prioritário no inicio, vc pode terminar o código e ir refatorando ele após o seu termino.
