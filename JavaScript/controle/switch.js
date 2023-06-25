@@ -13,7 +13,7 @@ const ImprimirResultado = function (nota){
         case 3: case 2: case 1: case 0:
             console.log('Reprovado')
             break
-        default: //caso adicione outros valores sem ser de um dos Case, improtante colocar o Break se vc for colocar outro case após ele
+        default: //caso adicione outros valores sem ser de um dos Case, importante colocar o Break se vc for colocar outro case após ele
             console.log('Nota Inválida')
     }
 }
