@@ -5,3 +5,5 @@ Dica importante:
 
 Tomar cuidado para não colocar váriaveis no escopo global, pode vir a acarretar em vunerabilidades no sitema e erros(Aula 73), pois qualquer um poderá mexer em seu código e modificar tais váriaveis. (foi oq eu entendi e resumi)
 (caso não tenha entendido a explicação volte para a aula 73 do curso)
+
+Anotação: ainda não entendi ao certo o `` e a sua diferança com o '' necessário pesquisar sobre.
