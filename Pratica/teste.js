@@ -1,5 +1,5 @@
 const imprimirNota = function (nota){
-    switch (Math.floor(nota)){
+    switch (Math.floor(nota)){ //arredondando para baixo, mas tambem posso adicionar o 'ciel' para arredondar para cima
         case 10:
             console.log('Parabéns! você atingiu a nota máxima em excelência.') 
         break
