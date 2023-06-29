@@ -25,4 +25,6 @@ else if (nota == 9){
 else{}
 
 }
+imprimirNota(10)
 imprimirNota(9)
+imprimirNota(4)
