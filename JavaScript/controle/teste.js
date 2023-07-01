@@ -1,6 +1,9 @@
 const imprimirNota = function (nota){
     switch (Math.floor(nota)){ //arredondando para baixo, mas tambem posso adicionar o 'ciel' para arredondar para cima
-        case 10:
+        default: //Default para caso o cliente difite um valor inválido no console
+            console.log('Digite um valor válido!')
+        break 
+        case 10: // CASES para as notas necessárias
             console.log('Parabéns! você atingiu a nota máxima em excelência.') 
         break
         case 9: 
@@ -16,6 +19,7 @@ const imprimirNota = function (nota){
             console.log('Você falhou no teste! Boa sorte na próxima vez. :)')
         break
 }
+// if para caso o aluno consiga uma nota entre 9-10, ele ficará légivel para participar do sorteio de um carro zero.
 if (nota == 10){
     console.log('Você está legivel para o sorteio de um carro zero! entre em contato com a diretoria para melhor detalhes.')
 }
@@ -28,3 +32,4 @@ else{}
 imprimirNota(10)
 imprimirNota(9)
 imprimirNota(4)
+imprimirNota(-2)
