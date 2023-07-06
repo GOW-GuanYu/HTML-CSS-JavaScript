@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Teste</title>
+    <style>
+        body{
+            background-color: black;
+        }
+        .cabeca{
+            display:inline-block;
+            color: white;
+        }
+        .cabeca p{
+            display: inline-flex;
+        }
+        .cabeca p#id{
+            color: grey;
+        }
+        .cabeca i{
+            font-size: 1em;
+            padding: 5px;
+        }
+
+        .corpo{
+            background-color: black;
+            color: white;
+            display: block;
+            border-radius: 3px;
+        }
+        .corpo i{
+            display: inline-flex;
+        }
+        .corpo ul{
+            max-width: 150px;
+            font-size: 0.95em;
+            padding: 10px;
+            margin: 0px;
+            list-style: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="todo">
+        <div class="cabeca">
+            <p>Arthur Yvens<p><p id="id">@ArthurYvens</p> • <p id="id">06/07/2023</p>
+            <div class="corpo">
+                <ul>
+                    <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non voluptatem natus cumque maiores quo dolorem quaerat libero iste repudiandae. Impedit cupiditate veniam architecto ex itaque iste excepturi, dicta vel molestiae.</li>
+                    <!--Adicionar alguns icons-->
+                </ul>
+            <i class="fa-regular fa-comment"></i>
+            <i class="fa-solid fa-retweet"></i>
+            <i class="fa-regular fa-heart"></i>
+            <i class="fa-solid fa-share-nodes"></i>
+            <i class="fa-regular fa-bookmark"></i>
+            </div>
+        </div>
+        <!--Aqui vai ter aquele fiozinho de thread-->
+        <div class="thread">
+            <div class="cabeca">
+                <p>Arthur Yvens<p><p id="id">@ArthurYvens</p> • <p id="id">06/07/2023</p>
+                <div class="corpo">
+                    <ul>
+                        <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non voluptatem natus cumque maiores quo dolorem quaerat libero iste repudiandae. Impedit cupiditate veniam architecto ex itaque iste excepturi, dicta vel molestiae.</li>
+                        <!--Adicionar alguns icons-->
+                    </ul>
+                <i class="fa-regular fa-comment"></i>
+                <i class="fa-solid fa-retweet"></i>
+                <i class="fa-regular fa-heart"></i>
+                <i class="fa-solid fa-share-nodes"></i>
+                <i class="fa-regular fa-bookmark"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
